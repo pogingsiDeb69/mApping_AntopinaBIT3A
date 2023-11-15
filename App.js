@@ -60,7 +60,7 @@ const userData =[
 
 
 export default function App() {
-  const tableHtml = `
+  const scrollView = `
   <table style="border: 1px solid black; width: 100%">
   <tr>
     <th>ID</th>
@@ -81,7 +81,7 @@ export default function App() {
 </table>
 `;
 
-const scrollView = `
+const tableHtml = `
 <table style="border: 1px solid black; width: 100%">
   <tr>
     <th>ID</th>
